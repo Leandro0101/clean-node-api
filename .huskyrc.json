@@ -1,6 +1,6 @@
 {
   "hooks": {
     "pre-commit": "lint-staged",
-    "pre-push": "npm test:ci"
+    "pre-push": "npm run test:ci"
   }
 }
