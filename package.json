@@ -15,7 +15,7 @@
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage",
-    "test:coveralls": "npm run test:ci && coveralls < converage/lcove.info"
+    "test:coveralls": "npm run test:ci && coveralls < coverage/lcove.info"
   },
   "keywords": [],
   "author": "",
