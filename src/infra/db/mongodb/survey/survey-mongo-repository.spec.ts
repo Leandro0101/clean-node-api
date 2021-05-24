@@ -31,7 +31,8 @@ describe('Survey Mongo Repository', () => {
       },
       {
         answer: 'other_answer'
-      }]
+      }],
+      date: new Date()
     })
 
     const survey = await surveyCollection.findOne({ question: 'any_question' })
