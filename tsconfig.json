@@ -9,7 +9,7 @@
   },
   "include": [
     "src"
-  ],
+, "src/main/middlewares/.ts"  ],
   "exclude": [
     "**/*.spec.ts",
     "**/*.test.ts"
